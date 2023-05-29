@@ -1,0 +1,50 @@
+/* ! === стили для карточки товара */
+.product-image {
+  width: 300px;
+}
+
+.product-card {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px;
+  padding: 10px;
+}
+
+.product-title {
+  color: darkblue;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.product-description {
+  padding: 20px;
+}
+
+.product-price {
+  align-self: flex-start;
+  font-size: 20px;
+  color: #1ed013;
+}
+
+.buy-product {
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 10px;
+  color: #1ed013;
+}
+
+.btn-basket-container {
+  display: flex;
+}
+
+.delete-product {
+  margin-left: 20px;
+}
+
+.basket-img {
+  width: 30px;
+}

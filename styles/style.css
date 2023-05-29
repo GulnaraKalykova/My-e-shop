@@ -1,0 +1,99 @@
+/* ! === стили для товаров */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "Helvetica";
+  src: url("../fonts/helvetica_regular.otf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+.container {
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Helvetica";
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.header-title {
+  color: red;
+  font-size: 25px;
+}
+
+.basket {
+  display: flex;
+  align-items: center;
+}
+
+.basket-count {
+  color: darkblue;
+  font-size: 20px;
+  font-weight: 800px;
+}
+
+.products-count {
+  font-size: 15px;
+  color: #9c27b0;
+}
+
+.products-photo {
+  width: 100px;
+  height: 100px;
+}
+
+.products-item {
+  width: 250px;
+  height: 270px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.products-center {
+  display: flex;
+  max-width: 1100px;
+  flex-wrap: wrap;
+}
+
+.products-price {
+  margin: 10px 10px;
+  color: #1ed013;
+  font-weight: 700;
+  font-size: 20px;
+  align-self: flex-start;
+}
+
+.products-title {
+  margin: 10px 10px;
+  color: darkblue;
+}
+
+#myBtn {
+  background-color: #9c27b0;
+  color: white;
+  padding: 12px 16px;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  width: 180px;
+}
+
+.show-more {
+  text-decoration: none;
+  margin-bottom: 10px;
+}
